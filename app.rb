@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   get "/user_input" do
 
-    erb :iuser_input
+    erb :user_input
   end
 
   post "/user_input" do
